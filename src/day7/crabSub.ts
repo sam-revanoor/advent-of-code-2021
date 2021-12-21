@@ -33,6 +33,7 @@ function getDistance(num: number, i: number): number {
   // ex: [...Array(10)] will give you an array with 10 undefined elements
   // but doing the .keys() gives you the key of each undefined element
   // which is really what we want
+  // https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n
 
   // for each position, add it to the accumulator until you get to the target
   // the final value is the "total fuel" for that particular submarine
